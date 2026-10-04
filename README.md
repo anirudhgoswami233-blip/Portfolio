@@ -24,33 +24,6 @@
 
 </div>
 
-## 🖤🤍 THE CONTRAST
-
-<table>
-<tr>
-<td width="50%" valign="top" style="background-color:#0d0d10;">
-
-### 🖤 DARK MODE BRAIN
-- Debugging at 2 AM
-- 47 browser tabs open
-- `// TODO: fix this later`
-- Reading Stack Overflow like scripture
-
-</td>
-<td width="50%" valign="top" style="background-color:#ffffff;">
-
-### 🤍 LIGHT MODE DISCIPLINE
-- 100 Days of Code, no skipped days
-- Olympiads, Abacus, Debate medals
-- Badminton to reset the brain
-- Shipping clean, documented code
-
-</td>
-</tr>
-</table>
-
-<br>
-
 ## 🚀 WHAT'S LIVE
 
 <div align="center">
@@ -100,26 +73,6 @@ cd Portfolio
 
 ### 📊 GITHUB STATS
 
-<img src="https://github-readme-stats.vercel.app/api?username=anirudhgoswami233-blip&show_icons=true&theme=radical&hide_border=true&bg_color=0d0d10&title_color=39FF14&icon_color=FF00FF&text_color=ffffff" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anirudhgoswami233-blip&theme=radical&hide_border=true&background=0d0d10&stroke=39FF14&ring=FF00FF&fire=FFB300" alt="GitHub Streak" height="165"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-### 💭 CURRENT STATUS
-
-```diff
-+ learning something new every day
-+ breaking things, then fixing them
-+ shipping before perfect
-! this repo updates more than my WhatsApp status
-```
-
-**"First year. Already building."**
-
-![Visitor Count](https://komarev.com/ghpvc/?username=anirudhgoswami233-blip&style=for-the-badge&color=39FF14&label=PROFILE+VIEWS)
+<img src="https://github-readme-stats.vercel.app/api?username=anirudhgoswami233-blip&show_icons=true&theme=radical&hide_border=true&bg_color=0d0d10&title_color=39FF14&icon_color=FF00FF&text_color=ffffff" alt="GitHub Stats" width="450"/>
 
 </div>
