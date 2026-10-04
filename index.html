@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anirudh Goswami | Portfolio</title>
+<meta name="description" content="Anirudh Goswami - B.Tech CSE Student, Software Development, AI/ML & Cybersecurity enthusiast">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav-wrap">
+  <nav class="container nav">
+    <a href="#home" class="logo">AG<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Anirudh Goswami</h1>
+        <p class="hero-sub">B.Tech CSE Student @ UPES, focused on <span>Software Development</span>, <span>AI/ML</span> &amp; <span>Cybersecurity</span>.</p>
+        <p class="hero-desc">Currently strengthening my fundamentals through hands-on projects and a structured 100 Days of Code journey in C.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/anirudhgoswami233-blip" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0C17.7 4.3 18.7 4.6 18.7 4.6c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A10.5 10.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/anirudh-goswami-b74b59342" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <a href="mailto:anirudhgoswami233@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M2 4h20v16H2V4zm2 2v.01L12 13l8-6.99V6H4zm16 2.24l-7.42 6.49a1 1 0 0 1-1.16 0L4 8.24V18h16V8.24z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="code-card">
+          <div class="code-card-head">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="code-title">about_me.c</span>
+          </div>
+          <pre><code><span class="c-kw">struct</span> <span class="c-type">Student</span> {
+  <span class="c-type">char</span> name[] = <span class="c-str">"Anirudh Goswami"</span>;
+  <span class="c-type">char</span> college[] = <span class="c-str">"UPES"</span>;
+  <span class="c-type">char</span> focus[] = <span class="c-str">"CSE"</span>;
+  <span class="c-type">char</span> interests[] = {
+    <span class="c-str">"Software Dev"</span>,
+    <span class="c-str">"AI/ML"</span>,
+    <span class="c-str">"Cybersecurity"</span>
+  };
+  <span class="c-type">int</span> day = <span class="c-num">1</span>; <span class="c-cmt">// of 100</span>
+};</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-tag">01 / About</p>
+      <h2 class="section-title">A bit about me</h2>
+      <p class="about-text">
+        I'm a B.Tech Computer Science Engineering student at UPES, passionate about Software Development,
+        AI/ML, and Cybersecurity. I'm actively strengthening my programming and problem-solving skills through
+        hands-on projects and a structured <strong>100 Days of Code</strong> journey in C. I've earned recognition
+        in Science Olympiads, Abacus, debating, and badminton, and I'm focused on continuously learning, building
+        practical solutions, and growing as a technology professional.
+      </p>
+      <div class="about-highlights">
+        <div class="highlight-card">
+          <span class="highlight-num">100</span>
+          <p>Days of Code challenge in C</p>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-num">4+</span>
+          <p>Areas of recognition — Olympiads, Abacus, Debate, Badminton</p>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-num">3</span>
+          <p>Core focus areas — Dev, AI/ML, Cybersecurity</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <p class="section-tag">02 / Skills</p>
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>C++</h3>
+          <p>Core language for DSA, problem solving, and competitive programming practice.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Python</h3>
+          <p>Scripting, automation, and foundations for exploring AI/ML.</p>
+        </div>
+        <div class="skill-card">
+          <h3>C</h3>
+          <p>Building strong fundamentals through a daily 100 Days of Code challenge.</p>
+        </div>
+        <div class="skill-card skill-card-muted">
+          <h3>+ Growing</h3>
+          <p>Currently exploring Git/GitHub, AI/ML basics, and Cybersecurity fundamentals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <p class="section-tag">03 / Projects</p>
+      <h2 class="section-title">Things I'm building</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="project-icon">{ }</span>
+            <h3>100 Days of Code — C</h3>
+          </div>
+          <p>A daily log of C programs, DSA problems, and concepts as I build consistency and strengthen my fundamentals.</p>
+          <div class="project-tags"><span>C</span><span>DSA</span><span>Consistency</span></div>
+          <a href="https://github.com/anirudhgoswami233-blip" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+        </article>
+        <article class="project-card project-card-placeholder">
+          <div class="project-card-top">
+            <span class="project-icon">+</span>
+            <h3>Next project — coming soon</h3>
+          </div>
+          <p>A new build is in progress. Check back soon, or follow along on GitHub as it's pushed.</p>
+          <div class="project-tags"><span>In progress</span></div>
+          <a href="https://github.com/anirudhgoswami233-blip" target="_blank" rel="noopener" class="project-link">Follow on GitHub →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <p class="section-tag">04 / Education</p>
+      <h2 class="section-title">Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>B.Tech, Computer Science Engineering</h3>
+            <p class="timeline-meta">UPES &middot; 1st Year</p>
+            <p>Building a foundation in programming, data structures, and core CS concepts, while exploring AI/ML and Cybersecurity alongside coursework.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Achievements &amp; Activities</h3>
+            <p class="timeline-meta">Ongoing</p>
+            <p>Recognition in Science Olympiads, Abacus, debating, and badminton — a mix that's shaped both discipline and communication skills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog" class="section">
+    <div class="container">
+      <p class="section-tag">05 / Blog</p>
+      <h2 class="section-title">Notes &amp; Writing</h2>
+      <div class="blog-empty">
+        <p>No posts yet — this space is reserved for write-ups on what I'm learning during my 100 Days of Code journey and beyond.</p>
+        <p class="blog-empty-sub">Check back soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-contact">
+    <div class="container">
+      <p class="section-tag">06 / Contact</p>
+      <h2 class="section-title">Let's connect</h2>
+      <p class="contact-sub">Open to opportunities, collaboration, or just a chat about code, AI/ML, or cybersecurity.</p>
+      <div class="contact-grid">
+        <a href="mailto:anirudhgoswami233@gmail.com" class="contact-card">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">anirudhgoswami233@gmail.com</span>
+        </a>
+        <a href="https://github.com/anirudhgoswami233-blip" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">anirudhgoswami233-blip</span>
+        </a>
+        <a href="https://www.linkedin.com/in/anirudh-goswami-b74b59342" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">anirudh-goswami</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Anirudh Goswami. Built with HTML, CSS &amp; JS.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
