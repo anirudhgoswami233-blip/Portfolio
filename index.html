@@ -12,6 +12,8 @@
 </head>
 <body>
 
+<div class="cursor-glow" id="cursorGlow"></div>
+
 <header class="nav-wrap">
   <nav class="container nav">
     <a href="#home" class="logo">AG<span>.</span></a>
@@ -46,27 +48,27 @@
   <section class="section">
     <div class="container">
       <div class="stats-grid fade-up">
-        <div class="stat-card">
+        <div class="stat-card" data-spotlight>
           <p class="stat-label">PROJECTS</p>
-          <p class="stat-num">5</p>
+          <p class="stat-num" data-count="5">0</p>
           <div class="stat-line"></div>
           <p class="stat-desc">Built and shipped — from F1 telemetry to stock trading.</p>
         </div>
-        <div class="stat-card">
+        <div class="stat-card" data-spotlight>
           <p class="stat-label">DEPLOYED</p>
-          <p class="stat-num">3</p>
+          <p class="stat-num" data-count="3">0</p>
           <div class="stat-line"></div>
           <p class="stat-desc">Live apps running on Vercel and Render right now.</p>
         </div>
-        <div class="stat-card">
+        <div class="stat-card" data-spotlight>
           <p class="stat-label">DAYS OF CODE</p>
-          <p class="stat-num">100</p>
+          <p class="stat-num" data-count="100">0</p>
           <div class="stat-line"></div>
           <p class="stat-desc">Daily C programming. Consistency over intensity.</p>
         </div>
-        <div class="stat-card">
+        <div class="stat-card" data-spotlight>
           <p class="stat-label">COST</p>
-          <p class="stat-num">$0</p>
+          <p class="stat-num" data-count="0" data-prefix="$">$0</p>
           <div class="stat-line"></div>
           <p class="stat-desc">Everything I build is open source and free.</p>
         </div>
@@ -81,7 +83,7 @@
       <h2 class="section-heading fade-up">What I've built<span class="dim">.</span></h2>
 
       <!-- Delta -->
-      <div class="feature-block fade-up">
+      <div class="feature-block fade-up" data-spotlight data-tilt>
         <div class="feature-text">
           <p class="feature-label">LATEST</p>
           <h3 class="feature-title">Delta</h3>
@@ -94,7 +96,7 @@
       </div>
 
       <!-- MarketPulse -->
-      <div class="feature-block fade-up">
+      <div class="feature-block fade-up" data-spotlight data-tilt>
         <div class="feature-text">
           <div class="feature-label-row">
             <p class="feature-label">LIVE APP</p>
@@ -113,7 +115,7 @@
       </div>
 
       <!-- ApexTelemetry -->
-      <div class="feature-block fade-up">
+      <div class="feature-block fade-up" data-spotlight data-tilt>
         <div class="feature-text">
           <div class="feature-label-row">
             <p class="feature-label">LIVE APP</p>
@@ -133,14 +135,14 @@
 
       <!-- Smaller projects -->
       <div class="projects-row fade-up">
-        <div class="project-mini">
+        <div class="project-mini" data-spotlight data-tilt>
           <p class="feature-label">CHALLENGE</p>
           <h3 class="mini-title">100 Days of Code</h3>
           <p class="mini-desc">Daily C programs, data structures, and algorithms. Building consistency and systems-level fundamentals.</p>
           <div class="feature-tags"><span>C</span><span>DSA</span><span>Algorithms</span></div>
           <a href="https://github.com/anirudhgoswami233-blip/100-Days-of-code" target="_blank" rel="noopener" class="mini-link">GitHub &rarr;</a>
         </div>
-        <div class="project-mini">
+        <div class="project-mini" data-spotlight data-tilt>
           <p class="feature-label">EXPERIMENT</p>
           <h3 class="mini-title">Doodle Garden</h3>
           <p class="mini-desc">Zero-dependency symmetry drawing app. Single HTML file, pure Canvas API, real-time kaleidoscope mirroring.</p>
