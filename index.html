@@ -4,13 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anirudh Goswami | Portfolio</title>
-<meta name="description" content="Anirudh Goswami - B.Tech CSE Student, Software Development, AI/ML & Cybersecurity enthusiast">
+<meta name="description" content="Anirudh Goswami — B.Tech CSE Student building full-stack apps, F1 analytics tools, and AI-driven dashboards.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class="grain" aria-hidden="true"></div>
 
 <header class="nav-wrap">
   <nav class="container nav">
@@ -23,7 +25,6 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#education">Education</a></li>
-      <li><a href="#blog">Blog</a></li>
       <li><a href="#contact" class="nav-cta">Contact</a></li>
     </ul>
   </nav>
@@ -33,14 +34,18 @@
 
   <!-- HERO -->
   <section id="home" class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
     <div class="container hero-grid">
-      <div class="hero-text">
+      <div class="hero-text fade-up">
         <p class="eyebrow">Hi, I'm</p>
-        <h1>Anirudh Goswami</h1>
-        <p class="hero-sub">B.Tech CSE Student @ UPES, focused on <span>Software Development</span>, <span>AI/ML</span> &amp; <span>Cybersecurity</span>.</p>
-        <p class="hero-desc">Currently strengthening my fundamentals through hands-on projects and a structured 100 Days of Code journey in C.</p>
+        <h1>Anirudh<br>Goswami<span class="accent-dot">.</span></h1>
+        <p class="hero-sub">I build <span class="typed-wrap"><span class="typed" id="typed"></span><span class="cursor">|</span></span></p>
+        <p class="hero-desc">B.Tech CSE @ UPES — shipping full-stack web apps, real-time data dashboards, and F1 analytics tools from idea to production.</p>
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#projects" class="btn btn-primary">
+            <span>View Projects</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
           <a href="#contact" class="btn btn-outline">Get in Touch</a>
         </div>
         <div class="hero-socials">
@@ -55,23 +60,23 @@
           </a>
         </div>
       </div>
-      <div class="hero-visual" aria-hidden="true">
+      <div class="hero-visual fade-up delay-1" aria-hidden="true">
         <div class="code-card">
           <div class="code-card-head">
             <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-            <span class="code-title">about_me.c</span>
+            <span class="code-title">portfolio.py</span>
           </div>
-          <pre><code><span class="c-kw">struct</span> <span class="c-type">Student</span> {
-  <span class="c-type">char</span> name[] = <span class="c-str">"Anirudh Goswami"</span>;
-  <span class="c-type">char</span> college[] = <span class="c-str">"UPES"</span>;
-  <span class="c-type">char</span> focus[] = <span class="c-str">"CSE"</span>;
-  <span class="c-type">char</span> interests[] = {
-    <span class="c-str">"Software Dev"</span>,
-    <span class="c-str">"AI/ML"</span>,
-    <span class="c-str">"Cybersecurity"</span>
-  };
-  <span class="c-type">int</span> day = <span class="c-num">1</span>; <span class="c-cmt">// of 100</span>
-};</code></pre>
+          <pre><code><span class="c-kw">class</span> <span class="c-type">Developer</span>:
+    name  = <span class="c-str">"Anirudh Goswami"</span>
+    stack = [<span class="c-str">"Python"</span>, <span class="c-str">"FastAPI"</span>,
+             <span class="c-str">"Next.js"</span>, <span class="c-str">"TypeScript"</span>]
+    focus = [<span class="c-str">"Full-Stack"</span>,
+             <span class="c-str">"Data Viz"</span>,
+             <span class="c-str">"AI/ML"</span>]
+    deployed = <span class="c-num">3</span>  <span class="c-cmt"># and counting</span>
+
+    <span class="c-kw">def</span> <span class="c-fn">status</span>(self):
+        <span class="c-kw">return</span> <span class="c-str">"Building things 🚀"</span></code></pre>
         </div>
       </div>
     </div>
@@ -80,27 +85,26 @@
   <!-- ABOUT -->
   <section id="about" class="section">
     <div class="container">
-      <p class="section-tag">01 / About</p>
-      <h2 class="section-title">A bit about me</h2>
-      <p class="about-text">
-        I'm a B.Tech Computer Science Engineering student at UPES, passionate about Software Development,
-        AI/ML, and Cybersecurity. I'm actively strengthening my programming and problem-solving skills through
-        hands-on projects and a structured <strong>100 Days of Code</strong> journey in C. I've earned recognition
-        in Science Olympiads, Abacus, debating, and badminton, and I'm focused on continuously learning, building
-        practical solutions, and growing as a technology professional.
+      <p class="section-tag fade-up">01 / About</p>
+      <h2 class="section-title fade-up">More than a student</h2>
+      <p class="about-text fade-up">
+        I don't just study CS — I ship it. From real-time F1 telemetry workstations to global stock market dashboards
+        with paper trading, I build full-stack applications that solve real problems and deploy them to production.
+        My stack spans Python, FastAPI, Next.js, and TypeScript, and I'm always pushing into new territory —
+        whether that's data visualization, AI/ML, or cybersecurity.
       </p>
       <div class="about-highlights">
-        <div class="highlight-card">
-          <span class="highlight-num">100</span>
-          <p>Days of Code challenge in C</p>
+        <div class="highlight-card fade-up">
+          <span class="highlight-num">5</span>
+          <p>Projects shipped — from F1 analytics to stock dashboards</p>
         </div>
-        <div class="highlight-card">
-          <span class="highlight-num">4+</span>
-          <p>Areas of recognition — Olympiads, Abacus, Debate, Badminton</p>
-        </div>
-        <div class="highlight-card">
+        <div class="highlight-card fade-up delay-1">
           <span class="highlight-num">3</span>
-          <p>Core focus areas — Dev, AI/ML, Cybersecurity</p>
+          <p>Live deployed apps on Vercel & Render</p>
+        </div>
+        <div class="highlight-card fade-up delay-2">
+          <span class="highlight-num">100</span>
+          <p>Days of Code challenge — building consistency in C</p>
         </div>
       </div>
     </div>
@@ -109,24 +113,50 @@
   <!-- SKILLS -->
   <section id="skills" class="section section-alt">
     <div class="container">
-      <p class="section-tag">02 / Skills</p>
-      <h2 class="section-title">What I work with</h2>
+      <p class="section-tag fade-up">02 / Skills</p>
+      <h2 class="section-title fade-up">Tech stack</h2>
       <div class="skills-grid">
-        <div class="skill-card">
-          <h3>C++</h3>
-          <p>Core language for DSA, problem solving, and competitive programming practice.</p>
+        <div class="skill-group fade-up">
+          <h3 class="skill-group-title">Languages</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">TypeScript</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">C</span>
+            <span class="skill-pill">C++</span>
+            <span class="skill-pill">SQL</span>
+          </div>
         </div>
-        <div class="skill-card">
-          <h3>Python</h3>
-          <p>Scripting, automation, and foundations for exploring AI/ML.</p>
+        <div class="skill-group fade-up delay-1">
+          <h3 class="skill-group-title">Backend</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">FastAPI</span>
+            <span class="skill-pill">Flask</span>
+            <span class="skill-pill">SQLAlchemy</span>
+            <span class="skill-pill">PostgreSQL</span>
+            <span class="skill-pill">Redis</span>
+            <span class="skill-pill">REST APIs</span>
+          </div>
         </div>
-        <div class="skill-card">
-          <h3>C</h3>
-          <p>Building strong fundamentals through a daily 100 Days of Code challenge.</p>
+        <div class="skill-group fade-up delay-2">
+          <h3 class="skill-group-title">Frontend</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">Next.js</span>
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">Tailwind CSS</span>
+            <span class="skill-pill">HTML / CSS</span>
+            <span class="skill-pill">Chart.js</span>
+          </div>
         </div>
-        <div class="skill-card skill-card-muted">
-          <h3>+ Growing</h3>
-          <p>Currently exploring Git/GitHub, AI/ML basics, and Cybersecurity fundamentals.</p>
+        <div class="skill-group fade-up delay-3">
+          <h3 class="skill-group-title">Tools & Infra</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">Git / GitHub</span>
+            <span class="skill-pill">Vercel</span>
+            <span class="skill-pill">Render</span>
+            <span class="skill-pill">Docker</span>
+            <span class="skill-pill">Linux</span>
+          </div>
         </div>
       </div>
     </div>
@@ -135,27 +165,107 @@
   <!-- PROJECTS -->
   <section id="projects" class="section">
     <div class="container">
-      <p class="section-tag">03 / Projects</p>
-      <h2 class="section-title">Things I'm building</h2>
+      <p class="section-tag fade-up">03 / Projects</p>
+      <h2 class="section-title fade-up">What I've built</h2>
+
+      <!-- Featured: Delta -->
+      <article class="project-feature fade-up">
+        <div class="project-feature-badge">Featured</div>
+        <div class="project-feature-body">
+          <div class="project-feature-info">
+            <h3>Delta — F1 Telemetry Workstation</h3>
+            <p>A comprehensive Formula 1 analysis platform built on real OpenF1 data. Synchronised telemetry comparison between any two drivers, interactive track maps with speed gradients, corner-by-corner time-delta breakdowns, overlaid speed/throttle/brake/gear traces, and a strategy timeline showing tire stints, pit stops, and safety-car periods.</p>
+            <div class="project-tags">
+              <span>Python</span><span>FastAPI</span><span>Next.js</span><span>OpenF1</span><span>Data Viz</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/anirudhgoswami233-blip/Delta" target="_blank" rel="noopener" class="btn btn-sm btn-outline">
+                <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0C17.7 4.3 18.7 4.6 18.7 4.6c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A10.5 10.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="project-feature-visual">
+            <div class="feature-mockup">
+              <div class="mockup-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+              <div class="mockup-body">
+                <div class="mockup-chart">
+                  <div class="chart-line line-1"></div>
+                  <div class="chart-line line-2"></div>
+                  <div class="chart-label">VER vs HAM — Lap Delta</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
       <div class="projects-grid">
-        <article class="project-card">
+
+        <!-- MarketPulse -->
+        <article class="project-card fade-up">
+          <div class="project-card-top">
+            <span class="project-icon">$</span>
+            <div class="project-card-meta">
+              <h3>MarketPulse</h3>
+              <span class="project-live-badge">Live</span>
+            </div>
+          </div>
+          <p>Global stock market web app — live quotes, forex & metals, macro dashboard, earnings/IPO calendars, watchlists, paper trading, and a Daily Market Brief from technical signals.</p>
+          <div class="project-tags"><span>Python</span><span>FastAPI</span><span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span></div>
+          <div class="project-links">
+            <a href="https://marketpulse-rose-seven.vercel.app" target="_blank" rel="noopener" class="project-link">Live Demo &nearr;</a>
+            <a href="https://github.com/anirudhgoswami233-blip/Marketpulse" target="_blank" rel="noopener" class="project-link project-link-muted">Source &nearr;</a>
+          </div>
+        </article>
+
+        <!-- ApexTelemetry -->
+        <article class="project-card fade-up delay-1">
+          <div class="project-card-top">
+            <span class="project-icon">&#9201;</span>
+            <div class="project-card-meta">
+              <h3>ApexTelemetry</h3>
+              <span class="project-live-badge">Live</span>
+            </div>
+          </div>
+          <p>F1 telemetry visualization app — real-time race data analysis with interactive charts and driver performance comparison dashboards.</p>
+          <div class="project-tags"><span>Python</span><span>Data Viz</span><span>Vercel</span></div>
+          <div class="project-links">
+            <a href="https://apextelemetry-seven.vercel.app" target="_blank" rel="noopener" class="project-link">Live Demo &nearr;</a>
+            <a href="https://github.com/anirudhgoswami233-blip/apextelemetry" target="_blank" rel="noopener" class="project-link project-link-muted">Source &nearr;</a>
+          </div>
+        </article>
+
+        <!-- 100 Days of Code -->
+        <article class="project-card fade-up">
           <div class="project-card-top">
             <span class="project-icon">{ }</span>
-            <h3>100 Days of Code — C</h3>
+            <div class="project-card-meta">
+              <h3>100 Days of Code</h3>
+            </div>
           </div>
-          <p>A daily log of C programs, DSA problems, and concepts as I build consistency and strengthen my fundamentals.</p>
-          <div class="project-tags"><span>C</span><span>DSA</span><span>Consistency</span></div>
-          <a href="https://github.com/anirudhgoswami233-blip" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          <p>A daily log of C programs, data structures, and algorithms — building consistency and a rock-solid foundation in systems-level programming.</p>
+          <div class="project-tags"><span>C</span><span>DSA</span><span>Algorithms</span></div>
+          <div class="project-links">
+            <a href="https://github.com/anirudhgoswami233-blip/100-Days-of-code" target="_blank" rel="noopener" class="project-link">View on GitHub &nearr;</a>
+          </div>
         </article>
-        <article class="project-card project-card-placeholder">
+
+        <!-- Doodle Garden -->
+        <article class="project-card fade-up delay-1">
           <div class="project-card-top">
-            <span class="project-icon">+</span>
-            <h3>Next project — coming soon</h3>
+            <span class="project-icon">&#10022;</span>
+            <div class="project-card-meta">
+              <h3>Doodle Garden</h3>
+            </div>
           </div>
-          <p>A new build is in progress. Check back soon, or follow along on GitHub as it's pushed.</p>
-          <div class="project-tags"><span>In progress</span></div>
-          <a href="https://github.com/anirudhgoswami233-blip" target="_blank" rel="noopener" class="project-link">Follow on GitHub →</a>
+          <p>A zero-dependency symmetry drawing app — single HTML file, pure canvas API, with real-time kaleidoscope-style mirroring and export.</p>
+          <div class="project-tags"><span>HTML</span><span>Canvas API</span><span>Vanilla JS</span></div>
+          <div class="project-links">
+            <a href="https://github.com/anirudhgoswami233-blip/vibecoding-1" target="_blank" rel="noopener" class="project-link">View on GitHub &nearr;</a>
+          </div>
         </article>
+
       </div>
     </div>
   </section>
@@ -163,37 +273,25 @@
   <!-- EDUCATION -->
   <section id="education" class="section section-alt">
     <div class="container">
-      <p class="section-tag">04 / Education</p>
-      <h2 class="section-title">Timeline</h2>
+      <p class="section-tag fade-up">04 / Education</p>
+      <h2 class="section-title fade-up">Timeline</h2>
       <div class="timeline">
-        <div class="timeline-item">
+        <div class="timeline-item fade-up">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <h3>B.Tech, Computer Science Engineering</h3>
-            <p class="timeline-meta">UPES &middot; 1st Year</p>
-            <p>Building a foundation in programming, data structures, and core CS concepts, while exploring AI/ML and Cybersecurity alongside coursework.</p>
+            <p class="timeline-meta">UPES &middot; 1st Year &middot; 2025 – present</p>
+            <p>Building a foundation in programming, data structures, and core CS — while shipping production apps in parallel.</p>
           </div>
         </div>
-        <div class="timeline-item">
+        <div class="timeline-item fade-up delay-1">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <h3>Achievements &amp; Activities</h3>
             <p class="timeline-meta">Ongoing</p>
-            <p>Recognition in Science Olympiads, Abacus, debating, and badminton — a mix that's shaped both discipline and communication skills.</p>
+            <p>Recognition in Science Olympiads, Abacus, debating, and badminton — discipline and communication from every angle.</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOG -->
-  <section id="blog" class="section">
-    <div class="container">
-      <p class="section-tag">05 / Blog</p>
-      <h2 class="section-title">Notes &amp; Writing</h2>
-      <div class="blog-empty">
-        <p>No posts yet — this space is reserved for write-ups on what I'm learning during my 100 Days of Code journey and beyond.</p>
-        <p class="blog-empty-sub">Check back soon.</p>
       </div>
     </div>
   </section>
@@ -201,19 +299,19 @@
   <!-- CONTACT -->
   <section id="contact" class="section section-contact">
     <div class="container">
-      <p class="section-tag">06 / Contact</p>
-      <h2 class="section-title">Let's connect</h2>
-      <p class="contact-sub">Open to opportunities, collaboration, or just a chat about code, AI/ML, or cybersecurity.</p>
+      <p class="section-tag fade-up">05 / Contact</p>
+      <h2 class="section-title fade-up">Let's build something</h2>
+      <p class="contact-sub fade-up">Open to freelance work, collaboration, or just a conversation about code.</p>
       <div class="contact-grid">
-        <a href="mailto:anirudhgoswami233@gmail.com" class="contact-card">
+        <a href="mailto:anirudhgoswami233@gmail.com" class="contact-card fade-up">
           <span class="contact-label">Email</span>
           <span class="contact-value">anirudhgoswami233@gmail.com</span>
         </a>
-        <a href="https://github.com/anirudhgoswami233-blip" target="_blank" rel="noopener" class="contact-card">
+        <a href="https://github.com/anirudhgoswami233-blip" target="_blank" rel="noopener" class="contact-card fade-up delay-1">
           <span class="contact-label">GitHub</span>
           <span class="contact-value">anirudhgoswami233-blip</span>
         </a>
-        <a href="https://www.linkedin.com/in/anirudh-goswami-b74b59342" target="_blank" rel="noopener" class="contact-card">
+        <a href="https://www.linkedin.com/in/anirudh-goswami-b74b59342" target="_blank" rel="noopener" class="contact-card fade-up delay-2">
           <span class="contact-label">LinkedIn</span>
           <span class="contact-value">anirudh-goswami</span>
         </a>
@@ -225,7 +323,7 @@
 
 <footer class="footer">
   <div class="container footer-inner">
-    <p>&copy; <span id="year"></span> Anirudh Goswami. Built with HTML, CSS &amp; JS.</p>
+    <p>&copy; <span id="year"></span> Anirudh Goswami</p>
   </div>
 </footer>
 
